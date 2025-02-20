@@ -15,7 +15,7 @@ function Auth({ setAuthenticated }) {
       setAuthenticated(true);
       navigate("/dashboard");
     } else {
-      alert("Invalid credentials");
+      alert("Invalid credentials! Try this: admin/123");
     }
   };
 
