@@ -10,7 +10,6 @@ function Auth({ setAuthenticated }) {
   const handleLogin = (e) => {
     e.preventDefault();
 
-    // Simple authentication logic
     if (username === "admin" && password === "123") {
       setAuthenticated(true);
       navigate("/dashboard");
