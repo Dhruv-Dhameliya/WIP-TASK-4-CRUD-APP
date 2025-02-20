@@ -1,0 +1,173 @@
+/* Table styles
+.table-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  overflow-x: auto;
+  box-sizing: border-box;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+th,
+td {
+  padding: 8px 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+  font-size: 0.9rem;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f0f0f0;
+}
+
+button {
+  padding: 6px 12px;
+  margin: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input,
+select,
+textarea {
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+textarea {
+  height: 80px;
+  resize: none;
+}
+
+input[type="checkbox"] {
+  margin-right: 2px;
+}
+
+@media (max-width: 768px) {
+  .table-container {
+    padding: 10px;
+  }
+
+  table {
+    font-size: 0.85rem;
+  }
+
+  th,
+  td {
+    padding: 8px 10px;
+  }
+
+  button {
+    padding: 6px 10px;
+    font-size: 0.85rem;
+  }
+
+  input,
+  select,
+  textarea {
+    font-size: 0.85rem;
+    padding: 6px;
+  }
+} */
+
+.table-container {
+  overflow-x: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f5f5f5;
+  color: #333;
+  font-weight: 600;
+}
+
+tr:hover {
+  background-color: #f9f9f9;
+}
+
+td input,
+td select,
+td textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+td textarea {
+  height: 80px;
+  resize: vertical;
+}
+
+td button {
+  padding: 6px 12px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+td button:first-child {
+  background-color: #4caf50;
+  color: white;
+}
+
+td button:last-child {
+  background-color: #f44336;
+  color: white;
+}
+
+td button:hover {
+  opacity: 0.9;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .table-container {
+    padding: 10px;
+  }
+
+  th,
+  td {
+    padding: 8px;
+  }
+}
